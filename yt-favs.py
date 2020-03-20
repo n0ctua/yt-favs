@@ -1,10 +1,12 @@
+# -*- coding: utf-8 -*-
+# filename          : yt-favs.py
+# description       : Download your Youtube favorites
+# author            : n0ctua
+# website           : https://github.com/n0ctua/yt-favs
 #
-# Download your latest Youtube favorites
-#
-# usage:
-# $ source env/bin/activate
-# $ python yt-favs.py
-#
+# usage             : $ source venv/bin/activate
+#                     $ python3 yt-favs.py
+#==============================================================================
 
 import httplib2
 import os
