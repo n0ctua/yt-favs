@@ -24,12 +24,12 @@ If you want to keep a backup copy of your favorite videos, it is quite inconvini
      pip install --upgrade -r requirements.txt
     ```
 4. Setup Credentials
-  a. Visit your [Google API Console](https://console.developers.google.com/)
-  b. Create a new project, e.g. *yt-favs*
-  c. In the [library panel](https://console.developers.google.com/apis/library), find and enable the `YouTube Data API v3` for this project
-  d. In the [credentials panel](https://console.developers.google.com/apis/credentials), create an `OAuth 2.0 client ID` and set the application type to `TVs and Limited Input devices`
-  e. Download the JSON file that contains your OAuth 2.0 credentials, rename it to `client_secret.json` and move it to the project directory
-  f. When you run the script for the first time, your browser will open and you have to grant this app the permission to access your Youtube account.
+  1. Visit your [Google API Console](https://console.developers.google.com/)
+  2. Create a new project, e.g. *yt-favs*
+  3. In the [library panel](https://console.developers.google.com/apis/library), find and enable the `YouTube Data API v3` for this project
+  4. In the [credentials panel](https://console.developers.google.com/apis/credentials), create an `OAuth 2.0 client ID` and set the application type to `TVs and Limited Input devices`
+  5. Download the JSON file that contains your OAuth 2.0 credentials, rename it to `client_secret.json` and move it to the project directory
+  6. When you run the script for the first time, your browser will open and you have to grant this app the permission to access your Youtube account.
   You can always check which third-party apps can access your Google account [here](https://myaccount.google.com/permissions).
 
 ## Usage
